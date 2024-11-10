@@ -8,7 +8,7 @@ import pytest
 import time
 
 
-def test_login():
+def test_flight():
 
     # Set up WebDriver (e.g., Chrome)
     driver = webdriver.Edge()
