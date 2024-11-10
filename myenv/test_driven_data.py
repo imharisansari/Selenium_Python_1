@@ -38,19 +38,3 @@ def test_login(username, password):
 
     driver.quit()
     
-
-    # # Find and input username and password fields
-    # username_field = driver.find_element_by_id("username_field_id")
-    # password_field = driver.find_element_by_id("password_field_id")
-    # username_field.send_keys(username)
-    # password_field.send_keys(password)
-
-    # # Click the login button
-    # login_button = driver.find_element_by_id("login_button_id")
-    # login_button.click()
-
-    # # Add assertions to verify login success or failure
-    # # ...
-
-    # # Close the browser
-    # driver.quit()
